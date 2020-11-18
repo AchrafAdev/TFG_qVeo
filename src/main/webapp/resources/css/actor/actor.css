@@ -1,0 +1,122 @@
+.cabeceras, .cuerpo {
+	margin: 0 !important;
+	padding: 5px 0;
+	font-size: 25px;
+	text-align: left;
+}
+
+.cabeceras {
+	font-weight: bold;
+	background-color: #00adb5;
+}
+
+.cuerpo {
+	background-color: #eeeeee;
+	border-bottom: 1px solid #fff;
+}
+main{
+	height:79.3%;
+}
+
+.container{
+	padding-bottom: 40px;
+}
+.cuerpo:hover{
+	background-color: #ddd;
+}
+
+.material-icons {
+	font-size: 40px !important;
+}
+
+.row .boton {
+	padding: 10px 0;
+}
+
+.opciones {
+	margin: 0 !important;
+}
+
+.input-field>label {
+	color: white;
+	font-size: 1.4em;
+}
+
+input {
+	font-size: 1.2em !important;
+}
+
+.formato {
+	color: white;
+	font-size: 1.4em;
+}
+
+.especial {
+	color: white;
+	font-size: 1.4em;
+}
+
+.boton-Foto {
+	width: 40%;
+}
+
+.fotoLista {
+	width: 50%;
+}
+
+input[type="radio"]:not(:checked ) +span, input[type="radio"]:checked+span
+	{
+	font-size: 1em !important;
+}
+
+input {
+	font-size: 1em !important;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.input-field>label {
+		color: white;
+		font-size: 1.4em;
+	}
+	.formato {
+		color: white;
+		font-size: 1.4em;
+	}
+	.especial {
+		color: white;
+		font-size: 1.4em;
+	}
+	.fotoLista {
+		width: 100%;
+	}
+	input {
+		font-size: 1.2em !important;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	/* For mobile phones: */
+	.input-field>label {
+		color: white;
+		font-size: 1.4em;
+	}
+	.formato {
+		color: white;
+		font-size: 1.4em;
+	}
+	.especial {
+		color: white;
+		font-size: 1.4em;
+	}
+	.fotoLista {
+		width: 100%;
+	}
+	input[type="radio"]:not(:checked ) +span, input[type="radio"]:checked+span
+		{
+		font-size: 1.2em !important;
+	}
+	input {
+		font-size: 1.2em !important;
+	}
+}

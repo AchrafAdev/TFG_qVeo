@@ -1,0 +1,36 @@
+.display-inline li {
+	display: inline;
+}
+
+.responsive {
+	margin: 10px 10px;
+	height: 200px;
+}
+
+.formato {
+	color: #00adb5;
+	font-size: 2em;
+}
+
+#formatoSpan {
+	color: #00adb5;
+	font-size: 2em;
+}
+.select-wrapper input.select-dropdown{
+	color: #00adb5 !important;
+	
+}
+input[type="radio"]+span {
+	font-size: 2em;
+}
+
+.boton-filtrar {
+    width: 200px;
+    background: 00adb5;
+  }
+
+@media only screen and (max-width: 600px) {
+  .boton-filtrar {
+    width: 100%;
+  }
+}

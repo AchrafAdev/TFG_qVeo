@@ -1,0 +1,69 @@
+
+ul li {
+	display: inline;
+	padding: 5px;
+}
+
+.input-field>label {
+	color: white !important;
+	font-size: 1.5em;
+}
+
+.formato {
+	color: white !important;
+	font-size: 1.5em;
+}
+main{
+	height:79.3% !important;
+}
+
+.boton-Foto {
+	width: 40%;
+}
+
+textarea {
+	height: 85px;
+}
+.select-wrapper input.select-dropdown{
+	color:white;
+}
+@media only screen and (max-width: 768px) {
+	.responsive {
+		width: 80%;
+		height: 70%;
+	}
+	.input-field>label {
+		color: white;
+		font-size: 1.5em;
+	}
+	.formato {
+		color: white;
+		font-size:  1.5em;
+	}
+	.especial {
+		color: white;
+		font-size:  1.5em;
+	}
+	textarea {
+		height: 187px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	/* For mobile phones: */
+	.input-field>label {
+		color: white;
+		font-size: 1.5em;
+	}
+	.formato {
+		color: white;
+		font-size:  1.5em;
+	}
+	.especial {
+		color: white;
+		font-size:  1.5em;
+	}
+	.fotoLista {
+		width: 100%;
+	}
+}
